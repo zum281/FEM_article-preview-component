@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | Article preview component</title>
+
+
+  </head>
+
+  <body>
+
+    <main>
+      <article>
+        <img src="./images/drawers.jpg" alt="drawers">
+        <div class="content">
+          <h2>
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+          </h2>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I've got some simple tips
+            to help you make any room feel complete.
+          </p>
+          <div class="article__footer">
+            <div class="article__info">
+              <img src="./images/avatar-michelle.jpg" alt="" role="presentation">
+              <div>
+                <p class="name">Michelle Appleton</p>
+                <p>28 Jun 2020</p>
+              </div>
+            </div>
+            <button title="Share" aria-label="share" id="share">
+              <img src="./images/icon-share.svg" alt="share icon">
+            </button>
+            <div class="article__share" id="article__share" data-open="false">
+              <div>
+                <span>Share</span>
+                <a href="#">
+                  <img src="./images/icon-facebook.svg" alt="share on facebook">
+                </a>
+                <a href="#">
+                  <img src="./images/icon-twitter.svg" alt="share on twitter">
+                </a>
+                <a href="#">
+                  <img src="./images/icon-pinterest.svg" alt="share on pinterest">
+                </a>
+              </div>
+              <button title="Share" aria-label="share" id="share__mobile">
+                <img src="./images/icon-share.svg" alt="share icon">
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="./main.js"></script>
+
+  </body>
+
+</html>
